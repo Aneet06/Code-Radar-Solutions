@@ -7,6 +7,7 @@ int main(){
         for (int j = 1; j <= i; j++) {
             printf("*");
         }
+    }
         // Move to the next line after each row
         printf("\n");
     printf("\n");
