@@ -11,7 +11,7 @@ int main(){
     
     char hobby[15];
     scanf("%s",&hobby);
-    printf("Name: %s\n",hobby);
+    printf("Hobby: %s\n",hobby);
 
     return 0;
     
