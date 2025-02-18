@@ -12,5 +12,8 @@ int main(){
     else if(a==b){
         printf("False");
     }
+    else{
+        printf("");
+    }
     return 0;
 }
