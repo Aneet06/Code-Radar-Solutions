@@ -1,15 +1,17 @@
-// Your code here...
 #include<stdio.h>
-int main(){
-    int a,b;
-    scanf("%d,%d",&a,&b);
-    if(a>b){
+
+int main() {
+    int a, b;
+
+    // Read two integers separated by a comma
+    scanf("%d,%d", &a, &b);  
+
+    // Compare the values and print the result
+    if (a > b) {
         printf("True");
-        continue;
+    } else {
+        printf("False");
     }
-    else{
-    printf("False");
-    }
-    
+
     return 0;
 }
