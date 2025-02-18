@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     char ch[40],sh[70];
-    scanf("%c",&ch);
-    printf("You entered: %s and %s",ch);
+    scanf("%c%c",&ch&sh);
+    printf("You entered: %s and %s",ch,sh);
     return 0;
 }
