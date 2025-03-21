@@ -2,11 +2,9 @@
 
 int main() {
     int a, b;
-
-    // Read two integers separated by a comma
-    scanf("%d,%d", &a, &b);  
-
-    // Compare the values and print the result
+    scanf("%d",&a);
+    scanf("%d",&b);  
+    
     if (a < b) {
         printf("True");
     } else {
